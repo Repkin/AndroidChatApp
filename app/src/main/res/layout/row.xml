@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_width="fill_parent"
+    android:textSize="15sp"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:fontFamily="@font/poppinsmedium"
+    />

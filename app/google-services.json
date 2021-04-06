@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892848793408",
+    "project_id": "officialengineer2-b6034",
+    "storage_bucket": "officialengineer2-b6034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892848793408:android:82b64c4ab30e65e6bdfca5",
+        "android_client_info": {
+          "package_name": "com.example.engineer2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892848793408-mp0odbjf3n3148rln3msenh6rvcntilk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26haedXXSpdL2SH_GiuIoMrB_XqjR40I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892848793408-mp0odbjf3n3148rln3msenh6rvcntilk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

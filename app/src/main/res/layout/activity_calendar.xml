@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendar"
+    android:background="@drawable/npreview_1280x1280">
+
+    <include
+        android:id="@+id/calendar_toolbar"
+        layout="@layout/appbar" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_toolbar"
+
+        >
+    </CalendarView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar"
+        android:layout_marginTop="19dp"
+        android:hint="Insert date when You are free"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/poppinsmedium"
+        />
+</RelativeLayout>

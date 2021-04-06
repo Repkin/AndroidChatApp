@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:title="Create group"
+        android:id="@+id/main_create"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+
+        android:title="Insert Date"
+        android:id="@+id/main_dates_menu"
+        app:showAsAction="never">
+    </item>
+
+    <item
+
+        android:title="Find Friends"
+        android:id="@+id/main_friends"
+        app:showAsAction="never">
+    </item>
+
+    <item
+
+        android:title="Settings"
+        android:id="@+id/main_settings"
+        app:showAsAction="never">
+    </item>
+
+    <item
+
+        android:title="Log out"
+        android:id="@+id/main_logout"
+        app:showAsAction="never">
+    </item>
+
+</menu>
